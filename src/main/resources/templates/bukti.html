@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Bukti Peminjaman – Perpustakaan</title>
+  <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div th:replace="~{fragments/navbar :: navbar('pinjam')}"></div>
+<div class="container">
+  <h1>Bukti Peminjaman</h1>
+  <div class="card">
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr><td style="font-weight:600;width:160px;">No. Transaksi</td><td th:text="${bukti.idTransaksi}"></td></tr>
+          <tr><td style="font-weight:600;">Anggota</td>      <td th:text="${bukti.namaAnggota}"></td></tr>
+          <tr><td style="font-weight:600;">Buku</td>         <td th:text="${bukti.judulBuku}"></td></tr>
+          <tr><td style="font-weight:600;">Tanggal Pinjam</td><td th:text="${bukti.tanggalPinjam}"></td></tr>
+          <tr><td style="font-weight:600;">Jatuh Tempo</td>  <td th:text="${bukti.jatuhTempo}"></td></tr>
+          <tr><td style="font-weight:600;">Status</td>
+              <td><span class="badge badge-success" th:text="${bukti.status}"></span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:16px;">
+      <a th:href="@{/pinjam}" class="btn btn-primary" style="text-decoration:none;">← Kembali ke Peminjaman</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

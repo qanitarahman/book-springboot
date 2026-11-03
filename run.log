@@ -1,0 +1,111 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24347 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] -----------------< id.ac.ub.filkom:contoh-daftar-buku >-----------------
+[INFO] Building Contoh Dasar Spring Boot - Daftar Buku 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.3.5:run (default-cli) > test-compile @ contoh-daftar-buku >>>
+[INFO] Loaded 64 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ contoh-daftar-buku ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 9 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ contoh-daftar-buku ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ contoh-daftar-buku ---
+[INFO] skip non existing resourceDirectory d:\Download DB2\Book_Springboot-main\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ contoh-daftar-buku ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.3.5:run (default-cli) < test-compile @ contoh-daftar-buku <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.3.5:run (default-cli) @ contoh-daftar-buku ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-11-03T22:27:13.442+07:00  INFO 21628 --- [perpustakaan] [           main] i.a.u.f.p.PerpustakaanApplication        : Starting PerpustakaanApplication using Java 24.0.2 with PID 21628 (D:\Download DB2\Book_Springboot-main\target\classes started by LENOVO in d:\Download DB2\Book_Springboot-main)
+2026-11-03T22:27:13.446+07:00  INFO 21628 --- [perpustakaan] [           main] i.a.u.f.p.PerpustakaanApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T22:27:14.368+07:00  INFO 21628 --- [perpustakaan] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T22:27:14.457+07:00  INFO 21628 --- [perpustakaan] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/C:/Users/LENOVO/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.31/tomcat-embed-core-10.1.31.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-11-03T22:27:15.246+07:00  INFO 21628 --- [perpustakaan] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-03T22:27:15.269+07:00  INFO 21628 --- [perpustakaan] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T22:27:15.269+07:00  INFO 21628 --- [perpustakaan] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-11-03T22:27:15.349+07:00  INFO 21628 --- [perpustakaan] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-03T22:27:15.349+07:00  INFO 21628 --- [perpustakaan] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1826 ms
+2026-11-03T22:27:15.396+07:00  INFO 21628 --- [perpustakaan] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-03T22:27:15.677+07:00  INFO 21628 --- [perpustakaan] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:perpustakaan user=SA
+2026-11-03T22:27:15.679+07:00  INFO 21628 --- [perpustakaan] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-03T22:27:15.695+07:00  INFO 21628 --- [perpustakaan] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:perpustakaan'
+2026-11-03T22:27:15.936+07:00  INFO 21628 --- [perpustakaan] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-03T22:27:16.011+07:00  INFO 21628 --- [perpustakaan] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-11-03T22:27:16.057+07:00  INFO 21628 --- [perpustakaan] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-03T22:27:16.557+07:00  INFO 21628 --- [perpustakaan] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T22:27:18.481+07:00  INFO 21628 --- [perpustakaan] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T22:27:18.561+07:00  INFO 21628 --- [perpustakaan] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T22:27:19.186+07:00  WARN 21628 --- [perpustakaan] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T22:27:19.711+07:00  INFO 21628 --- [perpustakaan] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-03T22:27:19.723+07:00  INFO 21628 --- [perpustakaan] [           main] i.a.u.f.p.PerpustakaanApplication        : Started PerpustakaanApplication in 6.957 seconds (process running for 7.616)
+2026-11-03T22:27:35.833+07:00  INFO 21628 --- [perpustakaan] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T22:27:35.833+07:00  INFO 21628 --- [perpustakaan] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T22:27:35.834+07:00  INFO 21628 --- [perpustakaan] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select count(*) from anggota a1_0
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status=?
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0 where a1_0.id_anggota=?
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status=?
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status=?
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status<>?
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status=?
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status<>?
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0 where a1_0.id_anggota=?
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0 where b1_0.id_buku=?
+Hibernate: select dp1_0.id_anggota,dp1_0.id_transaksi,dp1_0.id_buku,b1_0.id_buku,b1_0.judul,b1_0.stok,dp1_0.jatuh_tempo,dp1_0.status,dp1_0.tanggal_kembali,dp1_0.tanggal_pinjam from transaksi_pinjam dp1_0 left join buku b1_0 on b1_0.id_buku=dp1_0.id_buku where dp1_0.id_anggota=?
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama,tp1_0.id_buku,b1_0.id_buku,b1_0.judul,b1_0.stok,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 join anggota a1_0 on a1_0.id_anggota=tp1_0.id_anggota join buku b1_0 on b1_0.id_buku=tp1_0.id_buku where tp1_0.id_transaksi=?
+Hibernate: insert into transaksi_pinjam (id_anggota,id_buku,jatuh_tempo,status,tanggal_kembali,tanggal_pinjam,id_transaksi) values (?,?,?,?,?,?,?)
+Hibernate: update buku set judul=?,stok=? where id_buku=?
+Hibernate: select a1_0.id_anggota,a1_0.batas_pinjam,a1_0.nama from anggota a1_0
+Hibernate: select b1_0.id_buku,b1_0.judul,b1_0.stok from buku b1_0
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status=?
+Hibernate: select tp1_0.id_transaksi,tp1_0.id_anggota,tp1_0.id_buku,tp1_0.jatuh_tempo,tp1_0.status,tp1_0.tanggal_kembali,tp1_0.tanggal_pinjam from transaksi_pinjam tp1_0 where tp1_0.status<>?
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:13 min
+[INFO] Finished at: 2026-11-03T22:29:19+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project contoh-daftar-buku: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+d:\Download DB2\Book_Springboot-main>
