@@ -4,3 +4,6 @@ run.log
 .idea/
 *.iml
 .vscode/
+.DS_Store
+hs_err_pid*.log
+replay_pid*.log
